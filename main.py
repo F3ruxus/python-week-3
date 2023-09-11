@@ -1,3 +1,4 @@
+import math
 # # Week
 # # This week we will work on :
 # # Working With Strings
@@ -299,46 +300,113 @@ print(div1)
 # 7. What is the remainder when 200 is divided by 7?
 # 8. If \( x = 145 \) modulo 12, find the value of \( x \).
 
+result = 200 % 7
+print(result)
+
+x = 145 % 12
+print(x)
+
 # ### Powers
 # 9. Calculate \( 7^3 \).
 # 10. Find the value of \( 5^4 \).
+pw = 7^3
+print(pw)
+
+pw1 = 5^4
+print(pw1)
 
 # ### Get the max and min of a number
 # 11. Which is greater: 345 or 453?
 # 12. Out of 1,002 and 1,020, which is the lesser number?
 
+nuum1 = 345
+nuum2 = 453
+
+a = 1002
+b = 1020
+
+print(max(nuum1, nuum2))
+print(min(a,b))
+
 # ### Round a number
 # 13. Round 17.56 to the nearest whole number.
 # 14. Round 123.789 to the nearest tenth.
+
+c = 17.56
+print(round(c))
+
+d = 123.789
+print(round(d))
+
 
 # ### Absolute Value
 # 15. Find the absolute value of -134.
 # 16. What is the absolute value of -15.7?
 
+e = -134
+print(abs(c))
+
+f = -15.7
+print(abs(f))
+
 # ### Order of Operations
 # 17. Evaluate the expression: \( 5 + 3 \times 4 - 2^2 \).
 # 18. Calculate \( 12 \div 4 + 7 - 2 \times 3 \).
+
+exp = 5+3*4-2^2
+print(exp)
+
+exp1 = 12/4 + 7 - 2 * 3 
+print(exp1)
 
 # ### Special Math Libraries
 # **Floor Method**
 # 19. Round down the number 17.89 to the nearest whole number.
 # 20. What is the floor value of 45.01?
 
+numver = 17.89
+print(math.floor(numver))
+
+numver1 = 45.01 
+print(math.floor(numver1))
+
 # **Ceil Method**
 # 21. Round up the number 23.01 to the nearest whole number.
 # 22. What is the ceiling value of 67.67?
+
+numver2 = 23.01
+print(math.ceil(numver2))
+
+numver3 = 67.67
+print(math.ceil(numver3))
 
 # **Sqrt Method**
 # 23. Find the square root of 144.
 # 24. Calculate the square root of 169.
 
+nv = 144
+print(math.sqrt(nv))
+
+nv1 = 169
+print(math.sqrt(nv1))
+
 # Note: For the problems involving floor, ceil, and sqrt, students will need to use the `math` library functions in Python.
 
 # Print on the screen the floor division of the following two numbers: 874 divided by 27
 
+divd = 874/27
+print(divd)
+
 # Print on the screen the modulus of 456 divided by 33
 
+mod =  456%33 
+print(mod)
+
+
 # Calculate and print the square root of 783
+
+nv2 = 783
+print(math.sqrt(nv2))
 
 ##########################################################################################
 # So what have we learned? We learned some of the basics of numbers in Python. We also learned how to do arithmetic and use Python as a basic calculator. We then wrapped it up with learning about Variable Assignment in Python.
