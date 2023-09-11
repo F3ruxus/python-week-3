@@ -173,10 +173,10 @@ age = 51
 # # Declare a numeric variable named decimal_num that contains a value of float type of your choice.
 # # Print the data type of that variable.
 
-decimal_num = 3.14 # implicit means it is inferred 
-print(type(decimal_num)) 
+decimal_numm = 3.14  # implicit means it is inferred
+print(type(decimal_numm))
 
-#python allows for implicit or explicit conversion 
+#python allows for implicit or explicit conversion
 # Explicit means it is explicitly defined
 
 # ata Types Practice
@@ -220,8 +220,9 @@ print(float(num4) + num5)
 associate_name = "Jesse Pinkman"
 associate_number = 399058
 
-print(f"Dear {associate_name}, your associate number is: {str(associate_number)}")
-
+print(
+    f"Dear {associate_name}, your associate number is: {str(associate_number)}"
+)
 
 # Dear (associate_name), your associate number is: (associate_number)
 
@@ -233,7 +234,7 @@ print(f"Dear {associate_name}, your associate number is: {str(associate_number)}
 previous_points = 875
 new_points = 350
 
-print(f"You have earned {str(new_points)} points! In total, you have accumulated")
+total_points = previous_points + new_points
 
 # Strings Formatting Practice #3
 # Tell the user the amount of points earned within the following phrase:
@@ -241,7 +242,9 @@ print(f"You have earned {str(new_points)} points! In total, you have accumulated
 # This time, the amount of points accumulated (total_points) will be equal to the previous_points plus the new_points.
 # Remember that the precision of your answer (spaces, spelling and punctuation) is very important to arrive at the correct result.
 
-
+print(
+    f"You have earned {str(new_points)} points! In total, you have accumulated {str(total_points)} points!"
+)
 
 #################################Mathematical operations####################
 # slides 20 -24
@@ -266,14 +269,31 @@ print(f"You have earned {str(new_points)} points! In total, you have accumulated
 # ### Addition
 # 1. Add the numbers 145 and 256.
 # 2. What is the sum of 873 and 1,287?
+sum = 145 + 256
+print(sum)
+
+sum1 = 873 + 1287
+print(sum1)
 
 # ### Multiplication
 # 3. Multiply 13 by 24.
 # 4. What is the product of 17 and 19?
 
+mult = 13 * 24
+print(mult)
+
+mult1 = 17 * 19
+print(mult1)
+
 # ### Division
 # 5. Divide 528 by 6.
 # 6. What is the result when 1,234 is divided by 4?
+
+div = 528 / 6
+print(div)
+
+div1 = 1234 / 4
+print(div1)
 
 # ### Modulo
 # 7. What is the remainder when 200 is divided by 7?
